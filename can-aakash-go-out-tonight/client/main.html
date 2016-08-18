@@ -1,0 +1,18 @@
+<head>
+  <title>can aakash go out tonight</title>
+</head>
+
+<body>
+  {{> askHim}}
+</body>
+
+<template name="askHim">
+  <center>
+    <form>
+      <input type="text" name="textMessage" value={{randomText}}><br>
+    </form>
+    <button>ask aakash</button>
+    <p>we've asked aakash {{counter}} times</p>
+  </center>
+</template>
+
